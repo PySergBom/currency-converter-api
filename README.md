@@ -29,7 +29,7 @@ json
 ## Установка и запуск
 Клонируйте репозиторий и перейдите в рабочую директорию
 ```
-git clone https://github.com/PySergBom/currency-converter.git
+git clone https://github.com/PySergBom/currency-converter-api.git
 cd currency-converter
 ```
 Запустите docker контейнер:
@@ -38,7 +38,7 @@ cd currency-converter
 docker build -t currency-converter .
 
 # Запуск контейнера
-docker run -dp 8000:8000 currency-converter
+docker run -dp 8000:8000 currency-converter-api
 ```
 
 ## Документация
