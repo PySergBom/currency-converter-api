@@ -35,10 +35,10 @@ cd currency-converter-api
 Запустите docker контейнер:
 ```
 # Построение образа
-docker build -t currency-converter-api .
+docker build -t currency-converter .
 
 # Запуск контейнера
-docker run -dp 8000:8000 currency-converter-api
+docker run -dp 8000:8000 currency-converter
 ```
 
 ## Документация
